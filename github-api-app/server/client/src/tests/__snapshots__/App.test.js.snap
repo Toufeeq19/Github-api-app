@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders correctly 1`] = `
+<div
+  className="headerSection py-5"
+>
+  <h1
+    className="headerTitle py-3  display-2"
+  >
+    GitHub & GitLab API Search
+  </h1>
+  <p
+    className="headerDescription w-75 mx-auto py-3"
+  >
+    Find a user from the GitHub & GitLab API's by entering the username in the search bar. Switch between the 'View GitHub' and 'View GitLab' options to view profile and repo details.
+  </p>
+</div>
+`;
+
+exports[`main component renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="headerSection py-5"
+  >
+    <h1
+      className="headerTitle py-3  display-2"
+    >
+      GitHub & GitLab API Search
+    </h1>
+    <p
+      className="headerDescription w-75 mx-auto py-3"
+    >
+      Find a user from the GitHub & GitLab API's by entering the username in the search bar. Switch between the 'View GitHub' and 'View GitLab' options to view profile and repo details.
+    </p>
+  </div>
+  <div
+    className="App justify-content-center align-items-center d-flex flex-column"
+  >
+    <div
+      className="formSection mt-4 pt-4"
+    >
+      <form
+        className=""
+      >
+        <div
+          className="mb-3"
+        >
+          <label
+            className="display-6 pb-4 form-label"
+            htmlFor="formBasicText"
+          >
+            Enter username:
+          </label>
+          <input
+            className="mb-4 form-control"
+            id="formBasicText"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          className="btn btn-lg searchButton btn btn-secondary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="choiceDiv my-5"
+    >
+      <div
+        className="choiceItem selected"
+        onClick={[Function]}
+      >
+        View GitHub
+      </div>
+      <div
+        className="choiceItem"
+        onClick={[Function]}
+      >
+        View GitLab
+      </div>
+    </div>
+    <p />
+  </div>
+</div>
+`;
